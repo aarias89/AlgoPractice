@@ -4,7 +4,8 @@ Algorithm practice, Jest testing. Credit to Stephen.
 Testing will be done using Jest.
 
 #to install Jest
-sudo npm install -g jest
+-sudo npm install -g jest
+-npm install
 #once installed
 -in the exercises folder you will find the problem sets.
 -instructions to each problem will be found at the beginning of each index.js file.
@@ -13,6 +14,4 @@ sudo npm install -g jest
 
 -once you have written your solution and want to test it, in the terminal navigate to the Exercises directory.
 - run the following command:
-- jest palindrome/test.js --watch  (replace palendrome with the problem you're working on.)
-- if the command above gives you problems run
-- jest palindrome --watch
+- test palindrome/test.js --watch  (replace palendrome with the problem you're working on.)
